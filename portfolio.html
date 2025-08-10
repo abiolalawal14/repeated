@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basic SEO / Meta -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abiola Lawal — Data Analyst & M&E Specialist | Portfolio</title>
+  <meta name="description" content="Abiola Lawal — Monitoring & Evaluation Specialist and Data Analyst. Power BI, SQL, Python, Tableau, Excel. Portfolio of dashboards, projects, and training." />
+  <link rel="canonical" href="http://abiolalawal14.github.io/Data_Analyst_Portfolio/" />
+
+  <!-- Social / Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abiola Lawal — Data Analyst & M&E Specialist" />
+  <meta property="og:description" content="Monitoring & Evaluation Specialist (5+ years). Data analysis, dashboards, training, and M&E frameworks." />
+  <meta property="og:url" content="http://abiolalawal14.github.io/Data_Analyst_Portfolio/" />
+  <meta property="og:site_name" content="Abiola Lawal — Portfolio" />
+  <meta property="og:locale" content="en_NG" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Abiola Lawal — Data Analyst & M&E Specialist" />
+  <meta name="twitter:description" content="Monitoring & Evaluation Specialist (5+ years). Power BI, SQL, Python, Tableau, Excel." />
+
+  <!-- Allow indexing but prefer canonical -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Abiola Lawal",
+    "url":"http://abiolalawal14.github.io/Data_Analyst_Portfolio/",
+    "jobTitle":"Monitoring & Evaluation Specialist, Data Analyst",
+    "sameAs":[
+      "https://www.linkedin.com/in/abiola-lawal-abdulrafiu",
+      "http://abiolalawal14.github.io/Data_Analyst_Portfolio/"
+    ],
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Kubwa, FCT, Abuja",
+      "addressCountry":"NG"
+    }
+  }
+  </script>
+
+  <!-- Minimal responsive CSS (single-file) -->
+  <style>
+    :root{
+      --accent:#0b6efd;
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --radius:12px;
+      --maxw:1100px;
+      --gap:1.25rem;
+      color-scheme: light;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.45;color:#0b1220;background:linear-gradient(180deg,#f7f9fc,#ffffff);-webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-decoration:none}
+    img{max-width:100%;height:auto;display:block}
+
+    .wrap{max-width:var(--maxw);margin:1.5rem auto;padding:1.25rem}
+    header{display:flex;gap:1rem;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:1rem;align-items:center}
+    .avatar{width:72px;height:72px;border-radius:12px;background:#e6eefc;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);flex-shrink:0}
+    h1{font-size:1.35rem;margin:0}
+    .byline{color:var(--muted);font-size:0.95rem}
+
+    nav ul{display:flex;gap:0.75rem;list-style:none;padding:0;margin:0}
+    nav a{padding:0.45rem 0.65rem;border-radius:8px;font-size:0.95rem}
+    nav a:hover{background:rgba(11,110,253,0.08)}
+
+    main{display:grid;grid-template-columns:1fr 340px;gap:var(--gap);margin-top:1rem}
+    @media (max-width:980px){main{grid-template-columns:1fr}}
+    section.card{background:#fff;border-radius:var(--radius);padding:1rem;box-shadow:0 6px 20px rgba(18,25,36,0.06)}
+    .hero{display:flex;gap:1rem;align-items:flex-start}
+    .hero .headline{flex:1}
+    .p-meta{color:var(--muted);font-size:0.95rem;margin-top:0.5rem}
+
+    /* Skills and lists */
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:0.6rem}
+    .skill{padding:0.45rem 0.6rem;border-radius:8px;background:#f3f7fb;font-weight:600;font-size:0.9rem}
+    .meta-list{list-style:none;padding:0;margin:0}
+    .meta-list li{padding:0.35rem 0;border-bottom:1px solid #f1f5f9;color:var(--muted);font-size:0.95rem}
+
+    /* Experience */
+    .exp-item{margin-bottom:0.9rem}
+    .exp-item h3{margin:0;font-size:1rem}
+    .exp-item .meta{color:var(--muted);font-size:0.9rem;margin-bottom:0.35rem}
+    .bullet{margin:0.35rem 0 0 1rem;color:#334155}
+
+    /* Projects */
+    .projects{display:grid;gap:0.8rem}
+    .project{display:flex;gap:0.8rem;align-items:center}
+    .project .thumb{width:80px;height:56px;border-radius:8px;background:#eef3ff;display:flex;align-items:center;justify-content:center;font-weight:700}
+
+    footer{margin:1.5rem 0;color:var(--muted);font-size:0.9rem;text-align:center}
+
+    /* Contact form (simple) */
+    form{display:grid;gap:0.6rem}
+    input,textarea{padding:0.6rem;border:1px solid #e6eef2;border-radius:8px;font-size:0.95rem}
+    button{padding:0.65rem 0.9rem;border-radius:10px;border:0;background:var(--accent);color:white;font-weight:700;cursor:pointer}
+    button[disabled]{opacity:0.6;cursor:not-allowed}
+
+    /* Accessibility focus */
+    a:focus,button:focus,input:focus,textarea:focus{outline:3px solid rgba(11,110,253,0.18);outline-offset:2px}
+
+    /* print friendly */
+    @media print{body{background:white;color:black} nav,form,footer{display:none}}
+  </style>
+</head>
+<body>
+  <div class="wrap" id="top">
+    <header role="banner" class="card" aria-labelledby="name">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">AL</div>
+        <div>
+          <h1 id="name">Abiola Lawal</h1>
+          <div class="byline">Monitoring & Evaluation Specialist • Data Analyst — Power BI • SQL • Python • Tableau</div>
+          <div class="p-meta">Kubwa, FCT, Abuja • <a href="mailto:abiolalawal14@gmail.com">abiolalawal14@gmail.com</a> • <a href="tel:+2348101280287">+234 810 128 0287</a></div>
+        </div>
+      </div>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <!-- Left column -->
+      <div>
+        <!-- Hero / Summary -->
+        <section id="about" class="card hero" aria-labelledby="about-heading">
+          <div class="headline">
+            <h2 id="about-heading">About — Monitoring & Evaluation Specialist</h2>
+            <p class="p-meta">
+              I’m a Monitoring & Evaluation (M&E) Specialist and Data Analyst with 5+ years working to turn program data into action. I design M&E frameworks, build data collection tools, and create dashboards that deliver real-time insights for stakeholders and donors. Skilled in Power BI, SQL, Python, Tableau, and Excel — with experience applying predictive analytics and KPI tracking across health, finance and development programs. :contentReference[oaicite:1]{index=1}
+            </p>
+
+            <h3 style="margin-top:1rem">Core strengths</h3>
+            <div class="grid-2" aria-hidden="false">
+              <div class="skill">Power BI dashboards</div>
+              <div class="skill">SQL & data modeling</div>
+              <div class="skill">Python (pandas)</div>
+              <div class="skill">M&E frameworks & KPIs</div>
+              <div class="skill">Data quality & governance</div>
+              <div class="skill">Training & mentorship</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="work" class="card" aria-labelledby="work-heading" style="margin-top:1rem">
+          <h2 id="work-heading">Experience</h2>
+
+          <article class="exp-item" aria-labelledby="exp1">
+            <h3 id="exp1">Monitoring & Evaluation (T/A) — Foundation For Integrated Care</h3>
+            <div class="meta">March 2021 – Present • Abuja, Nigeria</div>
+            <ul>
+              <li class="bullet">Designed M&E frameworks and data collection tools aligned to donor reporting.</li>
+              <li class="bullet">Built Power BI dashboards and SQL queries to deliver real-time program insights.</li>
+              <li class="bullet">Led data security protocols for 200+ staff (encryption, role-based access).</li>
+            </ul>
+          </article>
+
+          <article class="exp-item" aria-labelledby="exp2">
+            <h3 id="exp2">Data Analyst — Edge Line Tech Academy™</h3>
+            <div class="meta">January 2025 – Present • Abuja, Nigeria</div>
+            <ul>
+              <li class="bullet">Designed and delivered data analytics curriculum (SQL, Python, Power BI, Excel).</li>
+              <li class="bullet">Trained 80+ students across cohorts and mentored capstone projects.</li>
+            </ul>
+          </article>
+
+          <article class="exp-item" aria-labelledby="exp3">
+            <h3 id="exp3">Data Analyst — Zion Tech Hub</h3>
+            <div class="meta">February 2024 – January 2025 • Abuja, Nigeria</div>
+            <ul>
+              <li class="bullet">Automated reporting and built interactive dashboards to support decision-making.</li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="card" aria-labelledby="projects-heading" style="margin-top:1rem">
+          <h2 id="projects-heading">Selected Projects & Trainings</h2>
+
+          <div class="projects">
+            <div class="project">
+              <div class="thumb" aria-hidden="true">PB</div>
+              <div>
+                <strong>Power BI — Program KPI Dashboard</strong>
+                <div class="p-meta">Real-time KPIs, donor reports, and drill-down by facility and month.</div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="thumb" aria-hidden="true">SQL</div>
+              <div>
+                <strong>SQL Automation & ETL</strong>
+                <div class="p-meta">Data cleaning pipelines, joins, and transformations for fast reporting.</div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="thumb" aria-hidden="true">TR</div>
+              <div>
+                <strong>Training — Data Analytics Bootcamp</strong>
+                <div class="p-meta">Structured curriculum and hands-on capstones (80+ students trained).</div>
+              </div>
+            </div>
+          </div>
+
+          <p style="margin-top:0.8rem">Want the full list of dashboards, links to GitHub notebooks or live demos? I can prepare a focused project page or public repo with sample data and README.</p>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section class="card" style="margin-top:1rem" aria-labelledby="edu-heading">
+          <h2 id="edu-heading">Education & Certifications</h2>
+          <ul class="meta-list" aria-hidden="false">
+            <li><strong>B.Sc., Wood Products Engineering</strong> — University of Ibadan (2013–2017)</li>
+            <li><strong>Professional Diploma, Data Analytics</strong> — Baze University (Mar 2024 – Mar 2025)</li>
+            <li>Data Modeling & Database Admin • AI & Digital Skills • Monitoring & Evaluation (various)</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Right column (aside) -->
+      <aside aria-labelledby="aside-heading" style="position:relative">
+        <section id="aside-heading" class="card" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact & Links</h2>
+          <p class="p-meta">Available for consulting, contract M&E roles, and training engagements.</p>
+          <ul class="meta-list" style="margin-top:0.6rem">
+            <li><strong>Email:</strong> <a href="mailto:abiolalawal14@gmail.com">abiolalawal14@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+2348101280287">+234 810 128 0287</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abiola-lawal-abdulrafiu">Abiola Lawal</a></li>
+            <li><strong>Portfolio:</strong> <a href="http://abiolalawal14.github.io/Data_Analyst_Portfolio/">Public portfolio</a></li>
+          </ul>
+        </section>
+
+        <section class="card" style="margin-top:1rem">
+          <h3>Technical Skills</h3>
+          <div class="grid-2" aria-hidden="false">
+            <div class="skill">Power BI</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Python (pandas)</div>
+            <div class="skill">Tableau</div>
+            <div class="skill">Excel</div>
+            <div class="skill">Data Governance</div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:1rem">
+          <h3>Volunteer & Community</h3>
+          <ul class="meta-list">
+            <li>Data Science Team Co-Lead, Pagex (Dec 2024 - Present)</li>
+            <li>Ambassador, Volunteer in Progress (Jan 2020 - Present)</li>
+            <li>Community Champion Leader, ALX (May 2024 - Present)</li>
+          </ul>
+        </section>
+
+        <section id="contact" class="card" style="margin-top:1rem">
+          <h3>Quick message</h3>
+          <form action="mailto:abiolalawal14@gmail.com" method="post" enctype="text/plain" aria-label="Contact form (mailto)">
+            <label for="name" style="font-size:0.9rem">Name</label>
+            <input id="name" name="name" required placeholder="Your name" />
+            <label for="email" style="font-size:0.9rem">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+            <label for="message" style="font-size:0.9rem">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Brief message or collaboration idea..." required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </aside>
+    </main>
+
+    <footer role="contentinfo">
+      <p>© <span id="year"></span> Abiola Lawal — Monitoring & Evaluation & Data Analytics. Built with semantic, accessible HTML.</p>
+      <p style="font-size:0.85rem;color:var(--muted)">Want a downloadable resume, printable PDF layout, or a dark-mode CSS variant? Mention which and I’ll tailor it.</p>
+    </footer>
+  </div>
+
+  <!-- Progressive enhancement: small inline script only to set the year (safe, non-essential). If you strictly want HTML-only without any JS, remove this block. -->
+  <script>
+    try { document.getElementById('year').textContent = new Date().getFullYear(); } catch(e){}
+  </script>
+</body>
+</html>
